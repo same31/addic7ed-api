@@ -1,0 +1,28 @@
+{
+  "name": "addic7ed-api",
+  "version": "0.0.1",
+  "description": "API to search and download subtitles files from addic7ed.com",
+  "main": "lib/main.js",
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/same31/addic7ed-api.git"
+  },
+  "keywords": [
+    "addic7ed.com",
+    "subtitles",
+    "api"
+  ],
+  "author": "Matthieu Mitrani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/same31/addic7ed-api/issues"
+  },
+  "homepage": "https://github.com/same31/addic7ed-api"
+}
