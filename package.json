@@ -2,9 +2,11 @@
   "name": "addic7ed-api",
   "version": "0.0.1",
   "description": "API to search and download subtitles files from addic7ed.com",
-  "main": "lib/main.js",
+  "main": "index.js",
   "dependencies": {
-    "request": "^2.67.0"
+    "langs": "^1.0.1",
+    "promise": "^7.0.4",
+    "request-promise": "^1.0.2"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,7 +19,9 @@
   "keywords": [
     "addic7ed.com",
     "subtitles",
-    "api"
+    "api",
+    "search",
+    "download"
   ],
   "author": "Matthieu Mitrani",
   "license": "MIT",
