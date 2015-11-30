@@ -1,4 +1,4 @@
 module.exports = {
-    searchSubtitles:   require('./lib/searchSubtitles'),
-    downloadSubtitles: require('./lib/downloadSubtitles')
+    search:   require('./lib/search'),
+    download: require('./lib/download')
 };
