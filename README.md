@@ -18,7 +18,7 @@ Search completed subtitles file for South Park season 19 episode 6.
 Download and save the first result.
 
 ```javascript
-var addic7edApi = require('addic7ed-api'),
+var addic7edApi = require('addic7ed-api');
 addic7edApi.search('South Park', 19, 6).then(function (subtitlesList) {
     var subInfo = subtitlesList[0];
     if (subInfo) {
