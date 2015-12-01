@@ -50,6 +50,7 @@ Example: ['fre', 'eng']
 Returns a promise which is resolved when the search is complete. This promise returns a list of object containing the subtitles file language, lang code, version and
 download link. Distribution (BLURAY, WEB-DL or HDTV) and team (i.e. KILLERS) are extracted from version if possible.
 
+
 ### addic7edApi.download(subInfo, filename)
 
 Download and save a subtitles file.
