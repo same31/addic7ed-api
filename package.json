@@ -1,32 +1,32 @@
 {
-  "name": "addic7ed-api",
-  "version": "1.0.5",
-  "description": "API to search and download subtitles files from addic7ed.com",
-  "main": "index.js",
-  "dependencies": {
-    "langs": "^1.0.1",
-    "promise": "^7.0.4",
-    "request-promise": "^1.0.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/same31/addic7ed-api.git"
-  },
-  "keywords": [
-    "addic7ed.com",
-    "subtitles",
-    "api",
-    "search",
-    "download"
-  ],
-  "author": "Matthieu Mitrani",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/same31/addic7ed-api/issues"
-  },
-  "homepage": "https://github.com/same31/addic7ed-api"
+    "name":            "addic7ed-api",
+    "version":         "1.0.6",
+    "description":     "API to search and download subtitles files from addic7ed.com",
+    "main":            "index.js",
+    "dependencies":    {
+        "langs":           "^1.0.1",
+        "promise":         "^7.0.4",
+        "request-promise": "^1.0.2"
+    },
+    "devDependencies": {},
+    "scripts":         {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository":      {
+        "type": "git",
+        "url":  "https://github.com/same31/addic7ed-api.git"
+    },
+    "keywords":        [
+        "addic7ed.com",
+        "subtitles",
+        "api",
+        "search",
+        "download"
+    ],
+    "author":          "Matthieu Mitrani",
+    "license":         "MIT",
+    "bugs":            {
+        "url": "https://github.com/same31/addic7ed-api/issues"
+    },
+    "homepage":        "https://github.com/same31/addic7ed-api"
 }
