@@ -1,0 +1,282 @@
+[
+  {
+    "id": 52,
+    "title": "Albanian",
+    "shortTitle": "alb"
+  },
+  {
+    "id": 38,
+    "title": "Arabic",
+    "shortTitle": "ara"
+  },
+  {
+    "id": 50,
+    "title": "Armenian",
+    "shortTitle": "arm"
+  },
+  {
+    "id": 48,
+    "title": "Azerbaijani",
+    "shortTitle": "aze"
+  },
+  {
+    "id": 47,
+    "title": "Bengali",
+    "shortTitle": "ben"
+  },
+  {
+    "id": 44,
+    "title": "Bosnian",
+    "shortTitle": "bos"
+  },
+  {
+    "id": 35,
+    "title": "Bulgarian",
+    "shortTitle": "bul"
+  },
+  {
+    "id": 12,
+    "title": "Català",
+    "shortTitle": "cat"
+  },
+  {
+    "id": 41,
+    "title": "Chinese (Simplified)",
+    "shortTitle": "chi"
+  },
+  {
+    "id": 24,
+    "title": "Chinese (Traditional)",
+    "shortTitle": "chi"
+  },
+  {
+    "id": 31,
+    "title": "Croatian",
+    "shortTitle": "hrv"
+  },
+  {
+    "id": 14,
+    "title": "Czech",
+    "shortTitle": "cze"
+  },
+  {
+    "id": 30,
+    "title": "Danish",
+    "shortTitle": "dan"
+  },
+  {
+    "id": 17,
+    "title": "Dutch",
+    "shortTitle": "dut"
+  },
+  {
+    "id": 1,
+    "title": "English",
+    "shortTitle": "eng"
+  },
+  {
+    "id": 54,
+    "title": "Estonian",
+    "shortTitle": "est"
+  },
+  {
+    "id": 13,
+    "title": "Euskera",
+    "shortTitle": "baq"
+  },
+  {
+    "id": 28,
+    "title": "Finnish",
+    "shortTitle": "fin"
+  },
+  {
+    "id": 8,
+    "title": "French",
+    "shortTitle": "fre"
+  },
+  {
+    "id": 53,
+    "title": "French (Canadian)",
+    "shortTitle": "fre"
+  },
+  {
+    "id": 15,
+    "title": "Galego",
+    "shortTitle": "glg"
+  },
+  {
+    "id": 11,
+    "title": "German",
+    "shortTitle": "ger"
+  },
+  {
+    "id": 27,
+    "title": "Greek",
+    "shortTitle": "gre"
+  },
+  {
+    "id": 23,
+    "title": "Hebrew",
+    "shortTitle": "heb"
+  },
+  {
+    "id": 55,
+    "title": "Hindi",
+    "shortTitle": "hin"
+  },
+  {
+    "id": 20,
+    "title": "Hungarian",
+    "shortTitle": "hun"
+  },
+  {
+    "id": 56,
+    "title": "Icelandic",
+    "shortTitle": "ice"
+  },
+  {
+    "id": 37,
+    "title": "Indonesian",
+    "shortTitle": "ind"
+  },
+  {
+    "id": 7,
+    "title": "Italian",
+    "shortTitle": "ita"
+  },
+  {
+    "id": 32,
+    "title": "Japanese",
+    "shortTitle": "jpn"
+  },
+  {
+    "id": 42,
+    "title": "Korean",
+    "shortTitle": "kor"
+  },
+  {
+    "id": 57,
+    "title": "Latvian",
+    "shortTitle": "lav"
+  },
+  {
+    "id": 58,
+    "title": "Lithuanian",
+    "shortTitle": "lit"
+  },
+  {
+    "id": 49,
+    "title": "Macedonian",
+    "shortTitle": "mac"
+  },
+  {
+    "id": 40,
+    "title": "Malay",
+    "shortTitle": "may"
+  },
+  {
+    "id": 29,
+    "title": "Norwegian",
+    "shortTitle": "nor"
+  },
+  {
+    "id": 43,
+    "title": "Persian",
+    "shortTitle": "per"
+  },
+  {
+    "id": 21,
+    "title": "Polish",
+    "shortTitle": "pol"
+  },
+  {
+    "id": 9,
+    "title": "Portuguese",
+    "shortTitle": "por"
+  },
+  {
+    "id": 10,
+    "title": "Portuguese (Brazilian)",
+    "shortTitle": "por"
+  },
+  {
+    "id": 26,
+    "title": "Romanian",
+    "shortTitle": "rum"
+  },
+  {
+    "id": 19,
+    "title": "Russian",
+    "shortTitle": "rus"
+  },
+  {
+    "id": 39,
+    "title": "Serbian (Cyrillic)",
+    "shortTitle": "srp"
+  },
+  {
+    "id": 36,
+    "title": "Serbian (Latin)",
+    "shortTitle": "srp"
+  },
+  {
+    "id": 60,
+    "title": "Sinhala",
+    "shortTitle": "sin"
+  },
+  {
+    "id": 25,
+    "title": "Slovak",
+    "shortTitle": "slo"
+  },
+  {
+    "id": 22,
+    "title": "Slovenian",
+    "shortTitle": "slv"
+  },
+  {
+    "id": 4,
+    "title": "Spanish",
+    "shortTitle": "spa"
+  },
+  {
+    "id": 6,
+    "title": "Spanish (Latin America)",
+    "shortTitle": "spa"
+  },
+  {
+    "id": 5,
+    "title": "Spanish (Spain)",
+    "shortTitle": "spa"
+  },
+  {
+    "id": 18,
+    "title": "Swedish",
+    "shortTitle": "swe"
+  },
+  {
+    "id": 59,
+    "title": "Tamil",
+    "shortTitle": "tam"
+  },
+  {
+    "id": 46,
+    "title": "Thai",
+    "shortTitle": "tha"
+  },
+  {
+    "id": 16,
+    "title": "Turkish",
+    "shortTitle": "tur"
+  },
+  {
+    "id": 51,
+    "title": "Ukrainian",
+    "shortTitle": "ukr"
+  },
+  {
+    "id": 45,
+    "title": "Vietnamese",
+    "shortTitle": "vie"
+  }
+]
