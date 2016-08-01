@@ -1,13 +1,14 @@
 {
   "name": "addic7ed-api",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "API to search and download subtitles files from addic7ed.com",
   "main": "index.js",
   "dependencies": {
     "iconv-lite": "^0.4.13",
     "langs": "^1.0.1",
     "promise": "^7.1.1",
-    "request-promise": "^3.0.0"
+    "request": "^2.74.0",
+    "request-promise": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
