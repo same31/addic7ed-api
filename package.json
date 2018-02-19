@@ -1,6 +1,6 @@
 {
   "name": "addic7ed-api",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "API to search and download subtitles files from addic7ed.com",
   "main": "index.js",
   "dependencies": {
