@@ -6,7 +6,7 @@
   "dependencies": {
     "iconv-lite": "^0.4.13",
     "langs": "^1.0.2",
-    "request": "^2.75.0",
+    "request": "^2.86.0",
     "request-promise-native": "^1.0.3"
   },
   "devDependencies": {},
