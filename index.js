@@ -1,4 +1,5 @@
 module.exports = {
     search:   require('./lib/search'),
-    download: require('./lib/download')
+    download: require('./lib/download'),
+    getShowTitles: require('./lib/getShowTitles')
 };
