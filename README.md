@@ -27,6 +27,9 @@ addic7edApi.search('South Park', 19, 6).then(function (subtitlesList) {
         });
     }
 });
+addic7edApi.getShowTitles().then(function(showTitlesList){
+    console.log('All show titles available:', showTitlesList);
+});
 ```
 
 
@@ -64,3 +67,10 @@ Download and save a subtitles file.
 
 Returns a promise which is resolved when the file is written.
 
+### addic7edApi.getShowTitles()
+
+Return a list of all available show titles.
+
+#### Return value
+
+Returns a promise which is resolved when the get operation is complete. This promise returns a list of show titles.
