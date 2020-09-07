@@ -32,19 +32,35 @@ addic7edApi.getShowTitles().then(function(showTitlesList){
 });
 ```
 
+Search completed subtitles file for Deadpool (2016).
+Download and save the first result.
+
+```javascript
+var addic7edApi = require('addic7ed-api');
+addic7edApi.search('Deadpool 2016', null, null).then(function (subtitlesList) {
+    var subInfo = subtitlesList[0];
+    if (subInfo) {
+        addic7edApi.download(subInfo, './deadpool.2016.srt').then(function () {
+            console.log('Subtitles file saved.');
+        });
+    }
+});
+addic7edApi.getShowTitles().then(function(showTitlesList){
+    console.log('All show titles available:', showTitlesList);
+});
 
 API functions
 -------------
 
-### addic7edApi.search(show, season, episode, [languages])
+### addic7edApi.search(title, season, episode, [languages])
 
 Search and return a list of completed subtitles.
 
 #### Parameters
 
-+ **show**: The show title
-+ **season**: The season number, integer or string like '01'
-+ **episode**: The episode number, integer or string like '01'
++ **title**: The show or movie title
++ **season**: The season number, integer or string like '01' if it's a show
++ **episode**: The episode number, integer or string like '01' if it's a show
 + **languages**: _(optional)_ Limit the search to a list of [ISO 639-2/B](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) (3 characters) language codes.
 Example: ['fre', 'eng']
 
