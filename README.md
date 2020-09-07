@@ -48,6 +48,7 @@ addic7edApi.search('Deadpool 2016', null, null).then(function (subtitlesList) {
 addic7edApi.getShowTitles().then(function(showTitlesList){
     console.log('All show titles available:', showTitlesList);
 });
+```
 
 API functions
 -------------
