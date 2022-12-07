@@ -1,6 +1,6 @@
 {
   "name": "addic7ed-api",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "description": "API to search and download subtitles files from addic7ed.com",
   "main": "index.mjs",
