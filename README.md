@@ -14,54 +14,46 @@ Like every other npm package, run the command
 Usage example
 -------------
 
-Search completed subtitles file for South Park season 19 episode 6.
+Search completed subtitles file for South Park season 25 episode 4.
 Download and save the first result.
 
 ```javascript
-var addic7edApi = require('addic7ed-api');
-addic7edApi.search('South Park', 19, 6).then(function (subtitlesList) {
-    var subInfo = subtitlesList[0];
-    if (subInfo) {
-        addic7edApi.download(subInfo, './South.Park.S19E06.srt').then(function () {
-            console.log('Subtitles file saved.');
-        });
-    }
-});
-addic7edApi.getShowTitles().then(function(showTitlesList){
-    console.log('All show titles available:', showTitlesList);
-});
+import { search, download } from 'addic7ed-api';
+
+const subtitlesList = await search('South Park', 25, 4);
+const subInfo = subtitlesList && subtitlesList[0];
+if (subInfo) {
+    await download(subInfo, './South.Park.S25E04.srt');
+    console.log('Subtitles file downloaded.');
+}
 ```
 
 Search completed subtitles file for Deadpool (2016).
 Download and save the first result.
 
 ```javascript
-var addic7edApi = require('addic7ed-api');
-addic7edApi.search('Deadpool 2016', null, null).then(function (subtitlesList) {
-    var subInfo = subtitlesList[0];
-    if (subInfo) {
-        addic7edApi.download(subInfo, './deadpool.2016.srt').then(function () {
-            console.log('Subtitles file saved.');
-        });
-    }
-});
-addic7edApi.getShowTitles().then(function(showTitlesList){
-    console.log('All show titles available:', showTitlesList);
-});
+import { search, download } from 'addic7ed-api';
+
+const subtitlesList = await search('Deadpool 2016');
+const subInfo = subtitlesList && subtitlesList[0];
+if (subInfo) {
+    await download(subInfo, './deadpool.2016.srt');
+    console.log('Subtitles file downloaded.');
+}
 ```
 
 API functions
 -------------
 
-### addic7edApi.search(title, season, episode, [languages])
+### search(title, [season], [episode], [languages])
 
 Search and return a list of completed subtitles.
 
 #### Parameters
 
 + **title**: The show or movie title
-+ **season**: The season number, integer or string like '01' if it's a show
-+ **episode**: The episode number, integer or string like '01' if it's a show
++ **season**: _(optional)_ The season number, integer or string like '01' if it's a show. `null` for movies.
++ **episode**: _(optional)_ The episode number, integer or string like '01' if it's a show. `null` for movies.
 + **languages**: _(optional)_ Limit the search to a list of [ISO 639-2/B](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) (3 characters) language codes.
 Example: ['fre', 'eng']
 
@@ -71,7 +63,7 @@ Returns a promise which is resolved when the search is complete. This promise re
 download link. Distribution (BLURAY, WEB-DL or HDTV) and team (i.e. KILLERS) are extracted from version if possible.
 
 
-### addic7edApi.download(subInfo, filename)
+### download(subInfo, filename)
 
 Download and save a subtitles file.
 
@@ -84,7 +76,7 @@ Download and save a subtitles file.
 
 Returns a promise which is resolved when the file is written.
 
-### addic7edApi.getShowTitles()
+### getShowTitles()
 
 Return a list of all available show titles.
 
